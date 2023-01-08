@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/linearParent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:padding="@dimen/loginViewsMargin">
+
+            <TextView
+                style="@style/headerTextPrimary"
+                android:text="Pengaturan"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+            <EditText
+                android:id="@+id/lampuA"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuB"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuC"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuD"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuE"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuF"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuG"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuH"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuI"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuJ"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuK"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lampuL"
+                style="@style/modifiedEditText"
+                android:hint="Nama Lampu"
+                android:maxLines="1"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="text"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:weightSum="12">
+
+            <LinearLayout
+                style="@style/parent"
+                android:background="@drawable/login_shape_bk"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/simpan"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@color/primary4"
+                        android:text="Simpan"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/parent"
+                    android:background="@drawable/ic_login_bk"
+                    android:contentDescription="login background" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
